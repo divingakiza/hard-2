@@ -1,0 +1,19 @@
+// If key is number
+if (!action) { /* ... */ }
+
+// If key is decimal
+if (action === 'decimal') { /* ... */ }
+
+// If key is operator
+if (
+  action === 'add' ||
+  action === 'subtract' ||
+  action === 'multiply' ||
+  action === 'divide'
+) { /* ... */}
+
+// If key is clear
+if (action === 'clear') { /* ... */ }
+
+// If key is calculate
+if (action === 'calculate') { /* ... */ }
